@@ -1,26 +1,6 @@
 <div align="center">
-    <h3 align="center">How the project works</h3>
-    <video width="500" height="300" controls>
-        <source src="maddie.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
+    <img src="maddie.gif" alt="Logo" width="400" height="250" style="object-fit:cover">
 </div>
-
-## Benefit of this project
-✅ Real-Time Communication – Enables instant messaging for seamless interaction.
-
-✅ Professional Portfolio Showcase – Displays projects in an organized and visually appealing manner.
-
-✅ User-Friendly Interface – Designed with animations and transitions for an engaging experience.
-
-✅ Secure & Scalable – Implements authentication and database security best practices.
-
-✅ Customizable & Extensible – Easily adaptable for additional features and integrations.
-
-✅ Fast & Lightweight – Optimized for performance using AJAX and efficient PHP code.
-
-✅ Responsive Design – Ensures accessibility across different devices and screen sizes.
 
 
 
