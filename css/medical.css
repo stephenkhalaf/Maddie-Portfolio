@@ -1,0 +1,89 @@
+.medical-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.medical-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.medical-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medical-container .symptom-group {
+    margin: 10px 0;
+}
+
+.medical-container .symptom-group label {
+    margin-left: 10px;
+}
+
+.medical-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top:20px;
+    transition: background-color 0.3s;
+}
+
+.medical-container button:hover {
+    background-color: #45a049;
+}
+
+.medical-container #result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+.medical-container #symptomForm .flex-container{
+    display:flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.medical-container #symptomForm .flex-container > div{
+    width:300px;
+}
+
+.medical-container #loader img{
+    width:50px;
+    height:50px;
+}
+
+.medical-container #symptomForm{
+    position: relative;
+}
+
+.medical-container .loader_on{
+    display:block;
+    position: absolute;
+    top:-20%;
+    left:10%
+}
+
+.medical-container .loader_off{
+    display:none;
+}
+
+.medical-container #btn-medical{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+

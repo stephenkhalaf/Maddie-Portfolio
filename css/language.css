@@ -1,0 +1,144 @@
+.row-container{
+    background: #fff;
+    border-radius: 7px;
+    width:75%;
+    margin-left: 10%;
+  }
+.wrapper{
+    border-radius: 5px
+  }
+  .wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  .text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #ccc;
+  }
+  .text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+  }
+  .text-input textarea::placeholder{
+    color: #b7b6b6;
+  }
+  .controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .controls{
+    list-style: none;
+    padding: 12px 15px;
+  }
+  .controls .row .icons{
+    width: 38%;
+  }
+  .controls .row .icons i{
+    width: 50px;
+    color: #adadad;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    justify-content: center;
+  }
+  .controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+  }
+  .controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+  }
+  .controls .row select{
+    color: #333;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    padding-left: 5px;
+  }
+  .text-input textarea::-webkit-scrollbar{
+    width: 1px;
+  }
+  .controls .row select::-webkit-scrollbar{
+    width: 20px;
+  }
+  .text-input textarea::-webkit-scrollbar-track,
+  .controls .row select::-webkit-scrollbar-track{
+    background: #fff;
+  }
+  .text-input textarea::-webkit-scrollbar-thumb{
+    background: #ddd;
+    border-radius: 8px;
+  }
+  .controls .row select::-webkit-scrollbar-thumb{
+    background: #999;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+  }
+  .controls .exchange{
+    color: #adadad;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+  }
+  .controls i:active{
+    transform: scale(0.9);
+  }
+  .row-container button{
+    width: 80%;
+    padding: 14px;
+    color: #0BCEAF;
+    border-color: #0BCEAF;
+    cursor: pointer;
+    outline: none;
+    margin-left:10%;
+    margin-top: 20px;
+    font-size: 17px;
+    background-color: transparent;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+  }
+  .row-container button:hover{
+    background: #0BCEAF;
+    color:white;
+    border-color: #0BCEAF;
+  }
+  
+  @media (max-width: 660px){
+    .row-container{
+      padding: 20px;
+    }
+    .wrapper .text-input{
+      flex-direction: column;
+    }
+    .text-input .to-text{
+      border-left: 0px;
+      border-top: 1px solid #ccc;
+    }
+    .text-input textarea{
+      height: 200px;
+    }
+    .controls .row .icons{
+      display: none;
+    }
+    .language-btn{
+      padding: 13px;
+      font-size: 16px;
+    }
+    .controls .row select{
+      font-size: 16px;
+    }
+    .controls .exchange{
+      font-size: 14px;
+    }
+  }

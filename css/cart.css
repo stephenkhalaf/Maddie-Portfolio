@@ -1,0 +1,163 @@
+.content-section {
+    margin: 1em;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex:1 200px;
+}
+
+.shop-item {
+    margin: 20px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+    font-size:20px;
+    font-weight: bold;
+    color:green;
+}
+
+.cart-row {
+    display: flex;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #0BCEAF;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn-shop {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-primary-shop {
+    color: white;
+    background-color: #0BCEAF;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    outline: none;
+}
+
+.cart-section{
+    margin:0 auto;
+    width:80%;
+}
